@@ -1,2 +1,1 @@
-let html = document.documentElement.innerHTML;
-chrome.runtime.sendMessage(html);
+chrome.runtime.sendMessage(document.documentElement.innerHTML);
